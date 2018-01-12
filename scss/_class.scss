@@ -1,0 +1,40 @@
+/* BTN CLASS */
+.btn {
+	padding: 7.5px;
+	border: 1px solid #34495e;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn-blue {
+	background-color: $btnBlueBase;
+	color: #FFF;
+}
+.btn-blue:hover {
+	background-color: $btnBlueHover;
+}
+/* BTN CLASS */
+/* MODAL CLASS */
+#parent-modals {
+	display: none;
+	opacity: 0;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	top: 0;
+	transition: 1s;
+}
+.modal-window {
+	width: 600px;
+	background-color: #FFF;
+	padding: 15px;
+	border-radius: 10px;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: 1s;
+}
+/* MODAL CLASS */
