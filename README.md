@@ -1,8 +1,24 @@
-# Framework CSS - TOSLE
+# Framework CSS - OSPAF
 
-Lien : https://github.com/TOSLE/tosle
+To use the Framework without contributing : 
+Download link : link offline
+
 ______________________________________
 
-# Framework CSS - TOSLE
+French version : https://github.com/TOSLE/framework-ospaf/blob/master/LISEZMOI.md
+______________________________________
 
-Link : https://github.com/TOSLE/tosle
+# Developers part
+
+# Node.js
+
+To contribute to the evolution of our Framework, you need to download Node.js.
+Download link : https://nodejs.org/en/
+
+Then, in the OSPAF working directory
+> npm install node-sass
+
+To finish, run the script
+> npm run watch
+
+Now, it's time to work ! :)
