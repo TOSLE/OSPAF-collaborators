@@ -1,11 +1,11 @@
 # Framework CSS - OSPAF
 
 Pour utiliser le Framework sans contribuer : 
-Lien de téléchargement : lien hors ligne
+Lien de téléchargement -> https://github.com/TOSLE/framework-ospaf
 
 ______________________________________
 
-Version anglaise : https://github.com/TOSLE/framework-ospaf/blob/master/README.md
+Version anglaise : https://github.com/TOSLE/framework-ospaf-developpers/blob/master/README.md
 ______________________________________
 
 # Partie développeurs
