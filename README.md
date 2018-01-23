@@ -1,7 +1,7 @@
 # Framework CSS - OSPAF
 
 To use the Framework without contributing : 
-Download link : https://github.com/TOSLE/framework-ospaf
+Download link -> https://github.com/TOSLE/framework-ospaf
 
 ______________________________________
 
