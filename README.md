@@ -5,7 +5,7 @@ Download link -> https://github.com/TOSLE/framework-ospaf
 
 ______________________________________
 
-French version : https://github.com/TOSLE/framework-ospaf/blob/master/LISEZMOI.md
+French version : https://github.com/TOSLE/framework-ospaf-developpers/blob/master/LISEZMOI.md
 ______________________________________
 
 # Developers part
