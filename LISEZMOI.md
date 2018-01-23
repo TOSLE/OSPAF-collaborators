@@ -5,7 +5,7 @@ Lien de téléchargement -> https://github.com/TOSLE/framework-ospaf
 
 ______________________________________
 
-Version anglaise : https://github.com/TOSLE/framework-ospaf-developpers/blob/master/README.md
+Version anglaise : https://github.com/TOSLE/framework-ospaf-developers/blob/master/README.md
 ______________________________________
 
 # Partie développeurs
