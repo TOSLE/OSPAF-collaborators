@@ -1,20 +1,70 @@
-/* BTN CLASS */
+/* BTN OSPAF */
 .btn {
-	padding: 7.5px;
-	border: 1px solid #34495e;
-	outline: none;
-	border-radius: 5px;
 	cursor: pointer;
+	outline: none;
+	border: 1px solid;
+	border-radius: 5px;
+}
+.btn-sm {
+	padding: 5px;
+}
+.btn-md {
+	padding: 7px;
+}
+.btn-lg {
+	padding: 9px;
 }
 
+.btn-default {
+	background-color: $btnColorDefaultBase;
+	border-color: $btnColorDefaultBase;
+}
+	.btn-default:hover {
+		background-color: $btnColorDefaultHover;
+		border-color: $btnColorDefaultHover;
+	}
+.btn-red {
+	background-color: $btnColorRedBase;
+	border-color: $btnColorRedBase;
+	color: $btnColorRedText;
+}
+	.btn-red:hover {
+		background-color: $btnColorRedHover;
+		border-color: $btnColorRedHover;
+		color: $btnColorRedText;
+	}
+.btn-green {
+	background-color: $btnColorGreenBase;
+	border-color: $btnColorGreenBase;
+	color: $btnColorGreenText;
+}
+	.btn-green:hover {
+		background-color: $btnColorGreenHover;
+		border-color: $btnColorGreenHover;
+		color: $btnColorGreenText;
+	}
 .btn-blue {
-	background-color: $btnBlueBase;
-	color: #FFF;
+	background-color: $btnColorBlueBase;
+	border-color: $btnColorBlueBase;
+	color: $btnColorBlueText;
 }
-.btn-blue:hover {
-	background-color: $btnBlueHover;
+	.btn-blue:hover {
+		background-color: $btnColorBlueHover;
+		border-color: $btnColorBlueHover;
+		color: $btnColorBlueText;
+	}
+.btn-orange {
+	background-color: $btnColorOrangeBase;
+	border-color: $btnColorOrangeBase;
+	color: $btnColorOrangeText;
 }
-/* BTN CLASS */
+	.btn-orange:hover {
+		background-color: $btnColorOrangeHover;
+		border-color: $btnColorOrangeHover;
+		color: $btnColorOrangeText;
+	}
+
+/* BTN OSPAF */
 /* MODAL CLASS */
 #parent-modals {
 	display: none;

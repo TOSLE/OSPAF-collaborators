@@ -1,19 +1,68 @@
-/* BTN CLASS */
+/* BTN OSPAF */
 .btn {
-  padding: 7.5px;
-  border: 1px solid #34495e;
+  cursor: pointer;
   outline: none;
-  border-radius: 5px;
-  cursor: pointer; }
+  border: 1px solid;
+  border-radius: 5px; }
+
+.btn-sm {
+  padding: 5px; }
+
+.btn-md {
+  padding: 7px; }
+
+.btn-lg {
+  padding: 9px; }
+
+.btn-default {
+  background-color: #D2DAE2;
+  border-color: #D2DAE2; }
+
+.btn-default:hover {
+  background-color: #7F8FA6;
+  border-color: #7F8FA6; }
+
+.btn-red {
+  background-color: #FD2E2E;
+  border-color: #FD2E2E;
+  color: #F5F6FA; }
+
+.btn-red:hover {
+  background-color: #CF1B1B;
+  border-color: #CF1B1B;
+  color: #F5F6FA; }
+
+.btn-green {
+  background-color: #3AE374;
+  border-color: #3AE374;
+  color: #F5F6FA; }
+
+.btn-green:hover {
+  background-color: #20BF6B;
+  border-color: #20BF6B;
+  color: #F5F6FA; }
 
 .btn-blue {
-  background-color: rgba(52, 152, 219, 0.9);
-  color: #FFF; }
+  background-color: #00A8FF;
+  border-color: #00A8FF;
+  color: #F5F6FA; }
 
 .btn-blue:hover {
-  background-color: #3498db; }
+  background-color: #037FF1;
+  border-color: #037FF1;
+  color: #F5F6FA; }
 
-/* BTN CLASS */
+.btn-orange {
+  background-color: #EE712B;
+  border-color: #EE712B;
+  color: #F5F6FA; }
+
+.btn-orange:hover {
+  background-color: #DC4712;
+  border-color: #DC4712;
+  color: #F5F6FA; }
+
+/* BTN OSPAF */
 /* MODAL CLASS */
 #parent-modals {
   display: none;
