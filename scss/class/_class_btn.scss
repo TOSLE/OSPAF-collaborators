@@ -1,0 +1,117 @@
+/* BTN OSPAF */
+.btn {
+	cursor: pointer;
+	outline: none;
+	border: 1px solid;
+	border-radius: 5px;
+}
+.btn-sm {
+	padding: 5px;
+}
+.btn-md {
+	padding: 7px;
+}
+.btn-lg {
+	padding: 9px;
+}
+	/* BTN DEFAULT */
+	.btn-default {
+		background-color: $btnDefaultColorBackground;
+		border-color: $btnDefaultColorBackground;
+		color: $btnDefaultColorText;
+	}
+		.btn-default:hover {
+			background-color: $btnDefaultColorBackgroundHover;
+			border-color: $btnDefaultColorBackgroundHover;
+		}
+	.btn-default-outline {
+		background-color: $btnDefaultOutlineColorBackground;
+		border-color: $btnDefaultOutlineColorBorder;
+		color: $btnDefaultOutlineColorText;
+	}
+		.btn-default-outline:hover {
+			background-color: $btnDefaultOutlineColorBackgroundHover;
+			border-color: $btnDefaultOutlineColorBorderHover;
+		}
+	/* BTN DEFAULT */
+	/* BTN RED */
+	.btn-red {
+		background-color: $btnRedColorBackground;
+		border-color: $btnRedColorBackground;
+		color: $btnRedColorText;
+	}
+		.btn-red:hover {
+			background-color: $btnRedColorBackgroundHover;
+			border-color: $btnRedColorBackgroundHover;
+		}
+	.btn-red-outline {
+		background-color: $btnRedOutlineColorBackground;
+		border-color: $btnRedOutlineColorBorder;
+		color: $btnRedOutlineColorText;
+	}
+		.btn-red-outline:hover {
+			background-color: $btnRedOutlineColorBackgroundHover;
+			border-color: $btnRedOutlineColorBorderHover;
+		}
+	/* BTN RED */
+	/* BTN GREEN */
+	.btn-green {
+		background-color: $btnGreenColorBackground;
+		border-color: $btnGreenColorBackground;
+		color: $btnGreenColorText;
+	}
+		.btn-green:hover {
+			background-color: $btnGreenColorBackgroundHover;
+			border-color: $btnGreenColorBackgroundHover;
+		}
+	.btn-green-outline {
+		background-color: $btnGreenOutlineColorBackground;
+		border-color: $btnGreenOutlineColorBorder;
+		color: $btnGreenOutlineColorText;
+	}
+		.btn-green-outline:hover {
+			background-color: $btnGreenOutlineColorBackgroundHover;
+			border-color: $btnGreenOutlineColorBorderHover;
+		}
+	/* BTN GREEN */
+	/* BTN BLUE */
+	.btn-blue {
+		background-color: $btnBlueColorBackground;
+		border-color: $btnBlueColorBackground;
+		color: $btnBlueColorText;
+	}
+		.btn-blue:hover {
+			background-color: $btnBlueColorBackgroundHover;
+			border-color: $btnBlueColorBackgroundHover;
+		}
+	.btn-blue-outline {
+		background-color: $btnBlueOutlineColorBackground;
+		border-color: $btnBlueOutlineColorBorder;
+		color: $btnBlueOutlineColorText;
+	}
+		.btn-blue-outline:hover {
+			background-color: $btnBlueOutlineColorBackgroundHover;
+			border-color: $btnBlueOutlineColorBorderHover;
+		}
+	/* BTN BLUE */
+	/* BTN ORANGE */
+	.btn-orange {
+		background-color: $btnOrangeColorBackground;
+		border-color: $btnOrangeColorBackground;
+		color: $btnOrangeColorText;
+	}
+		.btn-orange:hover {
+			background-color: $btnOrangeColorBackgroundHover;
+			border-color: $btnOrangeColorBackgroundHover;
+		}
+	.btn-orange-outline {
+		background-color: $btnOrangeOutlineColorBackground;
+		border-color: $btnOrangeOutlineColorBorder;
+		color: $btnOrangeOutlineColorText;
+	}
+		.btn-orange-outline:hover {
+			background-color: $btnOrangeOutlineColorBackgroundHover;
+			border-color: $btnOrangeOutlineColorBorderHover;
+		}
+	/* BTN ORANGE */
+/* BTN OSPAF */

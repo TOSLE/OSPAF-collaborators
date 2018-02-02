@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Arial;
 }
 
 header {
@@ -52,7 +51,6 @@ footer {
 	margin-top: 15px;
 }
 	footer > p {
-		font-size: 12px;
 		line-height: 30px;
 		font-weight: bold;
 	}

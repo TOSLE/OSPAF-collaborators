@@ -1,3 +1,15 @@
-@import "variables";
-@import "class.scss";
-@import "grid.scss";
+/* VARIABLES */
+	@import "variables/variables_btn.scss";
+	@import "variables/variables_modal.scss";
+/* VARIABLES */
+/* GENERAL */
+	@import "global/global.scss";
+	@import "global/import_fonts.scss";
+/* GENERAL */
+/* CLASS */
+	@import "class/class_btn.scss";
+	@import "class/class_modal.scss";
+/* CLASS */
+/* GRID */
+	@import "grid/grid.scss";
+/* GRID */
