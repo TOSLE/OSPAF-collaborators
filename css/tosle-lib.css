@@ -221,6 +221,10 @@ body {
     padding: 15px;
     border-bottom: 1px solid #444444;
     color: #444444; }
+    .modal-window .modal-header .modal-header-icon {
+      position: absolute;
+      right: 15px;
+      cursor: pointer; }
   .modal-window .modal-main {
     padding: 15px; }
   .modal-window .modal-footer {
@@ -233,9 +237,9 @@ body {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(../icons/materialicons/MaterialIcons-Regular.eot);
+  src: url(../icons/material-design-icons/iconfont/MaterialIcons-Regular.eot);
   /* For IE6-8 */
-  src: local("../icons/materialicons/Material Icons"), local("../icons/materialicons/MaterialIcons-Regular"), url("../icons/materialicons/MaterialIcons-Regular.woff2") format("woff2"), url("../icons/materialicons/MaterialIcons-Regular.woff") format("woff"), url("../icons/materialicons/MaterialIcons-Regular.ttf") format("truetype"); }
+  src: local("../icons/material-design-icons/iconfont/Material Icons"), local("../icons/material-design-icons/iconfont/MaterialIcons-Regular"), url("../icons/material-design-icons/iconfont/MaterialIcons-Regular.woff2") format("woff2"), url("../icons/material-design-icons/iconfont/MaterialIcons-Regular.woff") format("woff"), url("../icons/material-design-icons/iconfont/MaterialIcons-Regular.ttf") format("truetype"); }
 
 .material-icons {
   font-family: 'Material Icons';

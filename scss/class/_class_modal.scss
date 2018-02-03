@@ -23,8 +23,10 @@
 		padding: 15px;
 		border-bottom: 1px solid $modalWindowColorHeaderBorderBottom;
 		color: $modalWindowColorHeaderTitle;
-		.modal-header-icons {
-			
+		.modal-header-icon {
+			position: absolute;
+			right: 15px;
+			cursor: pointer;
 		}
 	}
 	.modal-main {
