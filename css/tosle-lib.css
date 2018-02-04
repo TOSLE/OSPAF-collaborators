@@ -29,6 +29,12 @@
 /* btn-orange outline */
 /* btn-orange outline */
 /* VARIABLES BTN-ORANGE */
+/* VARIABLES BTN-PURPLE */
+/* btn-purple normal */
+/* btn-purple normal */
+/* btn-purple outline */
+/* btn-purple outline */
+/* VARIABLES BTN-PURPLE */
 /* VARIABLES */
 /* GENERAL */
 /* GLOBAL CFG */
@@ -195,6 +201,26 @@ body {
   border-color: #DC4712; }
 
 /* BTN ORANGE */
+/* BTN PURPLE */
+.btn-purple {
+  background-color: #9B59B6;
+  border-color: #9B59B6;
+  color: #F5F6FA; }
+
+.btn-purple:hover {
+  background-color: #8E44AD;
+  border-color: #8E44AD; }
+
+.btn-purple-outline {
+  background-color: #FFFFFF;
+  border-color: #9B59B6;
+  color: #000000; }
+
+.btn-purple-outline:hover {
+  background-color: #F1F1F1;
+  border-color: #8E44AD; }
+
+/* BTN PURPLE */
 /* BTN OSPAF */
 /* MODAL CLASS */
 .fade-background {

@@ -10,6 +10,10 @@ ______________________________________
 
 # Developers part
 
+# Clone 
+
+> git clone --recurse-submodules https://github.com/TOSLE/framework-ospaf-developers.git
+
 # Node.js
 
 To contribute to the evolution of our Framework, you need to download Node.js.
