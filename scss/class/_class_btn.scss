@@ -117,4 +117,24 @@
 			border-color: $btnOrangeOutlineColorBorderHover;
 		}
 	/* BTN ORANGE */
+	/* BTN PURPLE */
+	.btn-purple {
+		background-color: $btnPurpleColorBackground;
+		border-color: $btnPurpleColorBackground;
+		color: $btnPurpleColorText;
+	}
+		.btn-purple:hover {
+			background-color: $btnPurpleColorBackgroundHover;
+			border-color: $btnPurpleColorBackgroundHover;
+		}
+	.btn-purple-outline {
+		background-color: $btnPurpleOutlineColorBackground;
+		border-color: $btnPurpleOutlineColorBorder;
+		color: $btnPurpleOutlineColorText;
+	}
+		.btn-purple-outline:hover {
+			background-color: $btnPurpleOutlineColorBackgroundHover;
+			border-color: $btnPurpleOutlineColorBorderHover;
+		}
+	/* BTN PURPLE */
 /* BTN OSPAF */
