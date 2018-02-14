@@ -48,10 +48,19 @@
   }
 }
 @media screen and (min-width: 768px){
-  .container > .row > .col-12, .container > .row > .col-11, .container > .row > .col-10, .container > .row > .col-9, .container > .row > .col-8, .container > .row > .col-7{
+  .container > .row > .col-12, .container > .row > .col-11, .container > .row > .col-10 {
     flex-basis: 100%;
   }
-  .container > .row > .col-6  {
+  .container > .row > .col-9 {
+    flex-basis: calc(100% / (12/9));
+  }
+  .container > .row > .col-8 {
+    flex-basis: calc(100% / (12/8));
+  }
+  .container > .row > .col-7 {
+    flex-basis: calc(100% / (12/7));
+  }
+  .container > .row > .col-6 {
     flex-basis: calc(100% / 2);
   }
   .container > .row > .col-5 {
