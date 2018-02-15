@@ -3,14 +3,14 @@
   margin: 0 auto;
   max-width: 100%;
   overflow: hidden;
-  .row {
+  > .row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1em;
-    div {
+    > div {
       padding: 0 1em;
       margin: 1em 0;
-      div {
+      > div {
         word-wrap: break-word;
       }
     }
