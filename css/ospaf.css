@@ -329,12 +329,8 @@ body {
     flex-basis: calc(100% / 6); } }
 
 @media all and (min-width: 768px) and (min-device-width: 768px) {
-  .container > .row > .col-12 {
+  .container > .row > .col-12, .container > .row > .col-11, .container > .row > .col-10 {
     flex-basis: 100%; }
-  .container > .row > .col-11 {
-    flex-basis: calc(100% / (12/11)); }
-  .container > .row > .col-10 {
-    flex-basis: calc(100% / (12/10)); }
   .container > .row > .col-9 {
     flex-basis: calc(100% / (12/9)); }
   .container > .row > .col-8 {
