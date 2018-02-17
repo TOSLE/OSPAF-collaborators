@@ -137,4 +137,24 @@
 			border-color: $btnPurpleOutlineColorBorderHover;
 		}
 	/* BTN PURPLE */
+	/* BTN WHITE */
+	.btn-white {
+		background-color: $btnWhiteColorBackground;
+		border-color: $btnWhiteColorBackground;
+		color: $btnWhiteColorText;
+	}
+		.btn-white:hover {
+			background-color: $btnWhiteColorBackgroundHover;
+			border-color: $btnWhiteColorBackgroundHover;
+		}
+	.btn-white-outline {
+		background-color: $btnWhiteOutlineColorBackground;
+		border-color: $btnWhiteOutlineColorBorder;
+		color: $btnWhiteOutlineColorText;
+	}
+		.btn-white-outline:hover {
+			background-color: $btnWhiteOutlineColorBackgroundHover;
+			border-color: $btnWhiteOutlineColorBorderHover;
+		}
+	/* BTN WHITE */
 /* BTN OSPAF */
