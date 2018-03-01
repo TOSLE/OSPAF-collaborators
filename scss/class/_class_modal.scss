@@ -13,9 +13,9 @@
 	z-index: 100;
 }
 .modal-window {
-	width: 900px;
+	width: 80%;
 	background-color: #FFF;
-	border-radius: 10px;
+	border-radius: 5px;
 	position: absolute;
 	top: 100%;
 	left: 50%;
@@ -33,6 +33,7 @@
 	}
 	.modal-main {
 		padding: 15px;
+		text-align: justify;
 	}
 	.modal-footer {
 		padding: 5px 15px;
@@ -41,96 +42,3 @@
 	}
 }
 /* MODAL CLASS */
-
-@media all and (max-width: 420px){
-	.modal-header {
-		.modal-header-icon {
-			
-		}
-		h2 {
-			font-size: 1.9em;
-		}
-	}
-	.modal-main {
-		h3 {
-			font-size: 1.6em;
-		}
-		p {
-			font-size: 1.4em;
-		}
-	}
-	.modal-footer {
-		button {
-			font-size: 1.4em;
-		}
-	}
-}
-@media all and (max-device-width: 420px){
-	.modal-header {
-		.modal-header-icon {
-			
-		}
-		h2 {
-			font-size: 1.9em;
-		}
-	}
-	.modal-main {
-		h3 {
-			font-size: 1.6em;
-		}
-		p {
-			font-size: 1.4em;
-		}
-	}
-	.modal-footer {
-		button {
-			font-size: 1.4em;
-		}
-	}
-}
-@media all and (min-width: 420px) and (min-device-width: 420px) {
-	.modal-header {
-		.modal-header-icon {
-			
-		}
-		h2 {
-			font-size: 1.7em;
-		}
-	}
-	.modal-main {
-		h3 {
-			font-size: 1.4em;
-		}
-		p {
-			font-size: 1.2em;
-		}
-	}
-	.modal-footer {
-		button {
-			font-size: 1.2em;
-		}
-	}
-}
-@media all and (min-width: 768px) and (min-device-width: 768px) {
-	.modal-header {
-		.modal-header-icon {
-			
-		}
-		h2 {
-			font-size: 1.5em;
-		}
-	}
-	.modal-main {
-		h3 {
-			font-size: 1.2em;
-		}
-		p {
-			font-size: 1em;
-		}
-	}
-	.modal-footer {
-		button {
-			font-size: 1em;
-		}
-	}
-}
