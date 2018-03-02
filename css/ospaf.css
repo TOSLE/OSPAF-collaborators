@@ -66,21 +66,22 @@
 /* GLOBAL CFG */
 /* TEXT CFG */
 body {
-  font-family: "Roboto"; }
+  font-family: "Roboto";
+  font-size: 1rem; }
   body h1 {
-    font-size: 24px;
+    font-size: 1.7em;
     font-weight: bold;
     font-style: normal; }
   body h2 {
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: bold;
     font-style: normal; }
   body h3 {
-    font-size: 18px;
+    font-size: 1.3em;
     font-weight: bold;
     font-style: italic; }
   body p {
-    font-size: 14px;
+    font-size: 1em;
     font-style: normal; }
 
 /* TEXT CFG */
@@ -115,16 +116,16 @@ body {
   border-radius: 5px;
   text-decoration: none;
   padding: 7px;
-  font-size: 1rem;
+  font-size: 1em;
   transition: background-color .2s; }
 
 .btn-sm {
   padding: 5px;
-  font-size: 0.8rem; }
+  font-size: 0.8em; }
 
 .btn-lg {
   padding: 9px;
-  font-size: 1.2rem; }
+  font-size: 1.2em; }
 
 /* BTN DEFAULT */
 .btn-default {
@@ -467,69 +468,25 @@ body {
 /* GRID */
 /* MEDIA */
 @media all and (max-width: 420px) {
-  .modal-window .modal-header h2 {
-    font-size: 1.9em; }
-  .modal-window .modal-main h3 {
-    font-size: 1.6em; }
-  .modal-window .modal-main p {
-    font-size: 1.4em; }
-  .btn {
-    font-size: 1.4rem; }
-  .btn-sm {
-    font-size: 1.1rem; }
-  .btn-lg {
-    font-size: 1.5rem; } }
-
-@media all and (max-device-width: 420px) {
-  .modal-window .modal-header h2 {
-    font-size: 1.9em; }
-  .modal-window .modal-main h3 {
-    font-size: 1.6em; }
-  .modal-window .modal-main p {
-    font-size: 1.4em; }
-  .btn {
-    font-size: 1.4rem; }
-  .btn-sm {
-    font-size: 1.1rem; }
-  .btn-lg {
-    font-size: 1.5rem; } }
-
-@media all and (min-width: 420px) and (min-device-width: 420px) {
-  .modal-window .modal-header h2 {
-    font-size: 1.7em; }
-  .modal-window .modal-main h3 {
-    font-size: 1.4em; }
-  .modal-window .modal-main p {
-    font-size: 1.2em; }
-  .btn {
-    font-size: 1.2rem; }
-  .btn-sm {
-    font-size: 1.0rem; }
-  .btn-lg {
-    font-size: 1.4rem; } }
-
-@media all and (min-width: 768px) and (min-device-width: 768px) {
-  .modal-window .modal-header h2 {
-    font-size: 1.5em; }
-  .modal-window .modal-main h3 {
-    font-size: 1.2em; }
-  .modal-window .modal-main p {
-    font-size: 1em; }
-  .btn {
-    font-size: 1.1rem; }
-  .btn-sm {
-    font-size: 0.9rem; }
-  .btn-lg {
+  body {
     font-size: 1.3rem; } }
 
-@media all and (min-width: 1230px) and (min-device-width: 1230px) {
-  .modal-window {
-    max-width: 800px; }
-  .btn {
-    font-size: 1rem; }
-  .btn-sm {
-    font-size: 0.8rem; }
-  .btn-lg {
+@media all and (max-device-width: 420px) {
+  body {
+    font-size: 1.3rem; } }
+
+@media all and (min-width: 420px) and (min-device-width: 420px) {
+  body {
     font-size: 1.2rem; } }
+
+@media all and (min-width: 768px) and (min-device-width: 768px) {
+  body {
+    font-size: 1.1rem; } }
+
+@media all and (min-width: 1230px) and (min-device-width: 1230px) {
+  body {
+    font-size: 1rem; }
+    body .modal-window {
+      max-width: 800px; } }
 
 /* MEDIA */
