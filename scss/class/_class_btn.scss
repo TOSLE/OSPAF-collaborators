@@ -10,6 +10,7 @@
 	transition: background-color .2s;
 }
 .btn-sm {
+	@extend .btn;
 	padding: 5px;
 	font-size: 0.8em;
 }
@@ -68,13 +69,14 @@
 			border-color: $btnGreenColorBackgroundHover;
 		}
 	.btn-green-outline {
-		background-color: $btnOutlineColorBackground;
+		background: none;
 		border-color: $btnGreenOutlineColorBorder;
-		color: $btnOutlineColorText;
+		color: $btnGreenOutlineColorText;
 	}
 		.btn-green-outline:hover {
-			background-color: $btnOutlineColorBackgroundHover;
+			background-color: $btnGreenColorBackgroundHover;
 			border-color: $btnGreenOutlineColorBorderHover;
+			color: $btnGreenColorText;
 		}
 	/* BTN GREEN */
 	/* BTN BLUE */
@@ -148,13 +150,14 @@
 			border-color: $btnWhiteColorBackgroundHover;
 		}
 	.btn-white-outline {
-		background-color: $btnOutlineColorBackground;
-		border-color: $btnWhiteOutlineColorBorder;
-		color: $btnWhiteOutlineColorText;
+		background: none;
+		border-color: #FFF;
+		color: #FFF;
 	}
 		.btn-white-outline:hover {
 			background-color: $btnOutlineColorBackgroundHover;
 			border-color: $btnWhiteOutlineColorBorderHover;
+			color: $btnWhiteOutlineColorText;
 		}
 	/* BTN WHITE */
 	/* BTN DARK */

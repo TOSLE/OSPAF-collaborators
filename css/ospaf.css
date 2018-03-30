@@ -102,14 +102,24 @@ body {
 
 @font-face {
   font-family: "Roboto";
-  font-weight: medium;
+  font-weight: 500;
   src: url("../fonts/Roboto/Roboto-Medium.ttf"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  src: url("../fonts/Roboto/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf"); }
 
 /* IMPORT FONTS ROBOTO */
 /* GENERAL */
 /* CLASS */
 /* BTN OSPAF */
-.btn {
+.btn, .btn-sm {
   cursor: pointer;
   outline: none;
   border: 1px solid;
@@ -178,13 +188,14 @@ body {
   border-color: #23903C; }
 
 .btn-green-outline {
-  background-color: #FFFFFF;
+  background: none;
   border-color: #28A745;
-  color: #000000; }
+  color: #28A745; }
 
 .btn-green-outline:hover {
-  background-color: #F1F1F1;
-  border-color: #23903C; }
+  background-color: #23903C;
+  border-color: #23903C;
+  color: #F5F6FA; }
 
 /* BTN GREEN */
 /* BTN BLUE */
@@ -258,13 +269,14 @@ body {
   border-color: #f0f2f4; }
 
 .btn-white-outline {
-  background-color: #FFFFFF;
-  border-color: #2F80ED;
-  color: #2F80ED; }
+  background: none;
+  border-color: #FFF;
+  color: #FFF; }
 
 .btn-white-outline:hover {
   background-color: #F1F1F1;
-  border-color: #2F80ED; }
+  border-color: #2F80ED;
+  color: #2F80ED; }
 
 /* BTN WHITE */
 /* BTN DARK */
