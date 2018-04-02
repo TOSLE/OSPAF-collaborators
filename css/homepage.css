@@ -37,6 +37,16 @@ html body {
     margin: 0 auto;
     padding: 0 15px;
     padding-top: 60px; }
+    html body main > #presentation-container {
+      margin-top: 60px;
+      text-align: center; }
+      html body main > #presentation-container > h1 {
+        color: #273c75; }
+      html body main > #presentation-container > #description-presentation > p {
+        margin-top: 15px;
+        font-size: 1.1em;
+        font-style: italic;
+        font-weight: 500; }
     html body main > #main-container {
       display: flex; }
       html body main > #main-container > #nav-container {
