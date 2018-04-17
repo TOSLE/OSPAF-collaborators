@@ -68,6 +68,9 @@ html {
         display: flex;
         > #nav-container {
           flex-basis: 20%;
+          > .row {
+            position: fixed;
+          }
         }
         > #doc-container{
           flex-basis: 80%;
@@ -90,15 +93,15 @@ html {
                       margin: 10px 0;
                       padding: 5px;
                       background-color: #EFEFEF;
-                      > .tag-html {
-                        color: #0f7595;
-                      }
-                      > .attribut-html {
-                        color: #273c75;
-                      }
-                      > .value-html {
-                        color: #CF2829;
-                      }
+                    }
+                    .tag-html {
+                      color: #0f7595;
+                    }
+                    .attribut-html {
+                      color: #273c75;
+                    }
+                    .value-html {
+                      color: #CF2829;
                     }
                   }
                 }
@@ -106,6 +109,7 @@ html {
                   background-color: #FFFFFF;
                   padding: 5px 15px;
                   border-top: 1px solid lightgrey;
+                  font-size: 0.8em;
                 }
               }
             }

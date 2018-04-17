@@ -1,108 +1,52 @@
 $primaryColor: #8e44ad;
-/* VARUABLES BTN-OUTLINE GLOBAL */
-	$btnOutlineColorBackground: #FFFFFF;
-	$btnOutlineColorBackgroundHover: #F1F1F1;
-	$btnOutlineColorText: #000000;
-/* VARUABLES BTN-OUTLINE GLOBAL */
+/* VARIABLES BTN-OUTLINE GLOBAL */
+	$btnColoredTextDefault: #F5F6FA;
+	$btnTextColorDefault: #000000;
+/* VARIABLES BTN-OUTLINE GLOBAL */
 /* VARIABLES BTN-DEFAULT */
-	/* btn-default normal */
-		$btnDefaultColorBackground: #949599;
-		$btnDefaultColorBackgroundHover: #7D7E82;
-		$btnDefaultColorText: #FFF;
-	/* btn-default normal */
-	/* btn-default outline */
-		$btnDefaultOutlineColorBorder: #949599;
-		$btnDefaultOutlineColorBorderHover: #7D7E82;
-	/* btn-default outline */
+	$btnDefaultColor: #949599;
+	$btnDefaultColorHover: #7D7E82;
+	$btnDefaultText: #FFFFFF;
+	$btnDefaultText2: #000000;
 /* VARIABLES BTN-DEFAULT */
 /* VARIABLES BTN-RED */
-	/* btn-red normal */
-		$btnRedColorBackground: #F43C3E;
-		$btnRedColorBackgroundHover: #CF2829;
-		$btnRedColorText: #F5F6FA;
-	/* btn-red normal */
-	/* btn-red outline */
-		$btnRedOutlineColorBorder: #F43C3E;
-		$btnRedOutlineColorBorderHover: #CF2829;
-	/* btn-red outline */
+	$btnRedColor: #F43C3E;
+	$btnRedColorHover: #CF2829;
+	$btnRedText: #F43C3E;
 /* VARIABLES BTN-RED */
 /* VARIABLES BTN-GREEN */
-	/* btn-green normal */
-		$btnGreenColorBackground: #28A745;
-		$btnGreenColorBackgroundHover: #23903C;
-		$btnGreenColorText: #F5F6FA;
-	/* btn-green normal */
-	/* btn-green outline */
-		$btnGreenOutlineColorBorder: #28A745;
-		$btnGreenOutlineColorText: #28A745;
-		$btnGreenOutlineColorBorderHover: #23903C;
-	/* btn-green outline */
+	$btnGreenColor: #28A745;
+	$btnGreenColorHover: #23903C;
+	$btnGreenText: #28A745;
 /* VARIABLES BTN-GREEN */
 /* VARIABLES BTN-BLUE */
-	/* btn-blue normal */
-		$btnBlueColorBackground: #00A8FF;
-		$btnBlueColorBackgroundHover: #037FF1;
-		$btnBlueColorText: #F5F6FA;
-	/* btn-blue normal */
-	/* btn-blue outline */
-		$btnBlueOutlineColorBorder: #00A8FF;
-		$btnBlueOutlineColorBorderHover: #037FF1;
-	/* btn-blue outline */
+	$btnBlueColor: #00A8FF;
+	$btnBlueColorHover: #037FF1;
+	$btnBlueText: #00A8FF;
 /* VARIABLES BTN-BLUE */
 /* VARIABLES BTN-ORANGE */
-	/* btn-orange normal */
-		$btnOrangeColorBackground: #FA690E;
-		$btnOrangeColorBackgroundHover: #DC4712;
-		$btnOrangeColorText: #F5F6FA;
-	/* btn-orange normal */
-	/* btn-orange outline */
-		$btnOrangeOutlineColorBorder: #FA690E;
-		$btnOrangeOutlineColorBorderHover: #DC4712;
-	/* btn-orange outline */
+	$btnOrangeColor: #FA690E;
+	$btnOrangeColorHover: #DC4712;
+	$btnOrangeText: #FA690E;
 /* VARIABLES BTN-ORANGE */
 /* VARIABLES BTN-PURPLE */
-	/* btn-purple normal */
-		$btnPurpleColorBackground: #9B59B6;
-		$btnPurpleColorBackgroundHover: #8E44AD;
-		$btnPurpleColorText: #F5F6FA;
-	/* btn-purple normal */
-	/* btn-purple outline */
-		$btnPurpleOutlineColorBorder: #9B59B6;
-		$btnPurpleOutlineColorBorderHover: #8E44AD;
-	/* btn-purple outline */
+	$btnPurpleColor: #9B59B6;
+	$btnPurpleColorHover: #8E44AD;
+	$btnPurpleText: #9B59B6;
 /* VARIABLES BTN-PURPLE */
 /* VARIABLES BTN-WHITE */
-	/* btn-white normal */
-		$btnWhiteColorBackground: #F8F9FA;
-		$btnWhiteColorBackgroundHover: #f0f2f4;
-		$btnWhiteColorText: #333333;
-	/* btn-white normal */
-	/* btn-white outline */
-		$btnWhiteOutlineColorBorder: #2F80ED;
-		$btnWhiteOutlineColorBorderHover: #f0f2f4;
-		$btnWhiteOutlineColorText: #343A40;
-	/* btn-white outline */
+	$btnWhiteColor: #F8F9FA;
+	$btnWhiteColorHover: #F0F2F4;
+	$btnWhiteText: #F8F9FA;
 /* VARIABLES BTN-WHITE */
 /* VARIABLES BTN-DARK */
-	/* btn-dark normal */
-		$btnDarkColorBackground: #343A40;
-		$btnDarkColorBackgroundHover: #22262A;
-		$btnDarkColorText: #FFF;
-	/* btn-dark normal */
-	/* btn-dark outline */
-		$btnDarkOutlineColorBorder: #343A40;
-		$btnDarkOutlineColorBorderHover: #22262A;
-	/* btn-dark outline */
+	$btnDarkColor: #343A40;
+	$btnDarkColorHover: #22262A;
+	$btnDarkText: #343A40;
 /* VARIABLES BTN-DARK */
 /* VARIABLES BTN-YELLOW */
-	/* btn-yellow normal */
-		$btnYellowColorBackground: #FFC107;
-		$btnYellowColorBackgroundHover: #E6AC00;
-		$btnYellowColorText: #000000;
-	/* btn-yellow normal */
-	/* btn-yellow outline */
-		$btnYellowOutlineColorBorder: #FFC107;
-		$btnYellowOutlineColorBorderHover: #E6AC00;
-	/* btn-yellow outline */
+	$btnYellowColor: #FFC107;
+	$btnYellowColorHover: #E6AC00;
+	$btnYellowText: #FFC107;
 /* VARIABLES BTN-YELLOW */
 

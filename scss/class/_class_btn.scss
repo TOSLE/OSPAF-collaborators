@@ -15,189 +15,197 @@
 	font-size: 0.8em;
 }
 .btn-lg {
+	@extend .btn;
 	padding: 9px;
 	font-size: 1.2em;
 }
 	/* BTN DEFAULT */
 	.btn-default {
-		background-color: $btnDefaultColorBackground;
-		border-color: $btnDefaultColorBackground;
-		color: $btnDefaultColorText;
+		background-color: $btnDefaultColor;
+		border-color: $btnDefaultColor;
+		color: $btnDefaultText;
 	}
 		.btn-default:hover {
-			background-color: $btnDefaultColorBackgroundHover;
-			border-color: $btnDefaultColorBackgroundHover;
+			background-color: $btnDefaultColorHover;
+			border-color: $btnDefaultColorHover;
 		}
 	.btn-default-outline {
-		background-color: $btnOutlineColorBackground;
-		border-color: $btnDefaultOutlineColorBorder;
-		color: $btnOutlineColorText;
+		background: none;
+		border-color: $btnDefaultColor;
+		color: $btnTextColorDefault;
 	}
 		.btn-default-outline:hover {
-			background-color: $btnOutlineColorBackgroundHover;
-			border-color: $btnDefaultOutlineColorBorderHover;
+			background-color: $btnDefaultColorHover;
+			border-color: $btnDefaultColorHover;
+			color: $btnDefaultText;
 		}
 	/* BTN DEFAULT */
 	/* BTN RED */
 	.btn-red {
-		background-color: $btnRedColorBackground;
-		border-color: $btnRedColorBackground;
-		color: $btnRedColorText;
+		background-color: $btnRedColor;
+		border-color: $btnRedColor;
+		color: $btnColoredTextDefault;
 	}
 		.btn-red:hover {
-			background-color: $btnRedColorBackgroundHover;
-			border-color: $btnRedColorBackgroundHover;
+			background-color: $btnRedColorHover;
+			border-color: $btnRedColorHover;
 		}
 	.btn-red-outline {
-		background-color: $btnOutlineColorBackground;
-		border-color: $btnRedOutlineColorBorder;
-		color: $btnOutlineColorText;
+		background: none;
+		border-color: $btnRedColor;
+		color: $btnRedText;
 	}
 		.btn-red-outline:hover {
-			background-color: $btnOutlineColorBackgroundHover;
-			border-color: $btnRedOutlineColorBorderHover;
+			background-color: $btnRedColorHover;
+			border-color: $btnRedColorHover;
+			color: $btnColoredTextDefault;
 		}
 	/* BTN RED */
 	/* BTN GREEN */
 	.btn-green {
-		background-color: $btnGreenColorBackground;
-		border-color: $btnGreenColorBackground;
-		color: $btnGreenColorText;
+		background-color: $btnGreenColor;
+		border-color: $btnGreenColor;
+		color: $btnColoredTextDefault;
 	}
 		.btn-green:hover {
-			background-color: $btnGreenColorBackgroundHover;
-			border-color: $btnGreenColorBackgroundHover;
+			background-color: $btnGreenColorHover;
+			border-color: $btnGreenColorHover;
 		}
 	.btn-green-outline {
 		background: none;
-		border-color: $btnGreenOutlineColorBorder;
-		color: $btnGreenOutlineColorText;
+		border-color: $btnGreenColor;
+		color: $btnGreenText;
 	}
 		.btn-green-outline:hover {
-			background-color: $btnGreenColorBackgroundHover;
-			border-color: $btnGreenOutlineColorBorderHover;
-			color: $btnGreenColorText;
+			background-color: $btnGreenColorHover;
+			border-color: $btnGreenColorHover;
+			color: $btnColoredTextDefault;
 		}
 	/* BTN GREEN */
 	/* BTN BLUE */
 	.btn-blue {
-		background-color: $btnBlueColorBackground;
-		border-color: $btnBlueColorBackground;
-		color: $btnBlueColorText;
+		background-color: $btnBlueColor;
+		border-color: $btnBlueColor;
+		color: $btnColoredTextDefault;
 	}
 		.btn-blue:hover {
-			background-color: $btnBlueColorBackgroundHover;
-			border-color: $btnBlueColorBackgroundHover;
+			background-color: $btnBlueColorHover;
+			border-color: $btnBlueColorHover;
 		}
 	.btn-blue-outline {
-		background-color: $btnOutlineColorBackground;
-		border-color: $btnBlueOutlineColorBorder;
-		color: $btnOutlineColorText;
+		background: none;
+		border-color: $btnBlueColor;
+		color: $btnBlueText;
 	}
 		.btn-blue-outline:hover {
-			background-color: $btnOutlineColorBackgroundHover;
-			border-color: $btnBlueOutlineColorBorderHover;
+			background-color: $btnBlueColorHover;
+			border-color: $btnBlueColorHover;
+			color: $btnColoredTextDefault;
 		}
 	/* BTN BLUE */
 	/* BTN ORANGE */
 	.btn-orange {
-		background-color: $btnOrangeColorBackground;
-		border-color: $btnOrangeColorBackground;
-		color: $btnOrangeColorText;
+		background-color: $btnOrangeColor;
+		border-color: $btnOrangeColor;
+		color: $btnColoredTextDefault;
 	}
 		.btn-orange:hover {
-			background-color: $btnOrangeColorBackgroundHover;
-			border-color: $btnOrangeColorBackgroundHover;
+			background-color: $btnOrangeColorHover;
+			border-color: $btnOrangeColorHover;
 		}
 	.btn-orange-outline {
-		background-color: $btnOutlineColorBackground;
-		border-color: $btnOrangeOutlineColorBorder;
-		color: $btnOutlineColorText;
+		background: none;
+		border-color: $btnOrangeColor;
+		color: $btnOrangeText;
 	}
 		.btn-orange-outline:hover {
-			background-color: $btnOutlineColorBackgroundHover;
-			border-color: $btnOrangeOutlineColorBorderHover;
+			background-color: $btnOrangeColorHover;
+			border-color: $btnOrangeColorHover;
+			color: $btnColoredTextDefault;
 		}
 	/* BTN ORANGE */
 	/* BTN PURPLE */
 	.btn-purple {
-		background-color: $btnPurpleColorBackground;
-		border-color: $btnPurpleColorBackground;
-		color: $btnPurpleColorText;
+		background-color: $btnPurpleColor;
+		border-color: $btnPurpleColor;
+		color: $btnColoredTextDefault;
 	}
 		.btn-purple:hover {
-			background-color: $btnPurpleColorBackgroundHover;
-			border-color: $btnPurpleColorBackgroundHover;
+			background-color: $btnPurpleColorHover;
+			border-color: $btnPurpleColorHover;
 		}
 	.btn-purple-outline {
-		background-color: $btnOutlineColorBackground;
-		border-color: $btnPurpleOutlineColorBorder;
-		color: $btnOutlineColorText;
+		background: none;
+		border-color: $btnPurpleColor;
+		color: $btnPurpleText;
 	}
 		.btn-purple-outline:hover {
-			background-color: $btnOutlineColorBackgroundHover;
-			border-color: $btnPurpleOutlineColorBorderHover;
+			background-color: $btnPurpleColorHover;
+			border-color: $btnPurpleColorHover;
+			color: $btnColoredTextDefault;
 		}
 	/* BTN PURPLE */
 	/* BTN WHITE */
 	.btn-white {
-		background-color: $btnWhiteColorBackground;
-		border-color: $btnWhiteColorBackground;
-		color: $btnWhiteColorText;
+		background-color: $btnWhiteColor;
+		border-color: $btnWhiteColor;
+		color: $btnTextColorDefault;
 	}
 		.btn-white:hover {
-			background-color: $btnWhiteColorBackgroundHover;
-			border-color: $btnWhiteColorBackgroundHover;
+			background-color: $btnWhiteColorHover;
+			border-color: $btnWhiteColorHover;
 		}
 	.btn-white-outline {
 		background: none;
-		border-color: $btnWhiteColorBackground;
-		color: $btnWhiteColorBackground;
+		border-color: $btnWhiteColor;
+		color: $btnWhiteText;
 	}
 		.btn-white-outline:hover {
-			background-color: $btnOutlineColorBackgroundHover;
-			border-color: $btnWhiteOutlineColorBorderHover;
-			color: $btnWhiteOutlineColorText;
+			background-color: $btnWhiteColorHover;
+			border-color: $btnWhiteColorHover;
+			color: $btnTextColorDefault;
 		}
 	/* BTN WHITE */
 	/* BTN DARK */
 	.btn-dark {
-		background-color: $btnDarkColorBackground;
-		border-color: $btnDarkColorBackground;
-		color: $btnDarkColorText;
+		background-color: $btnDarkColor;
+		border-color: $btnDarkColor;
+		color: $btnColoredTextDefault;
 	}
 		.btn-dark:hover {
-			background-color: $btnDarkColorBackgroundHover;
-			border-color: $btnDarkColorBackgroundHover;
+			background-color: $btnDarkColorHover;
+			border-color: $btnDarkColorHover;
 		}
 	.btn-dark-outline {
-		background-color: $btnOutlineColorBackground;
-		border-color: $btnDarkOutlineColorBorder;
-		color: $btnOutlineColorText;
+		background: none;
+		border-color: $btnDarkColor;
+		color: $btnDarkText;
 	}
 		.btn-dark-outline:hover {
-			background-color: $btnOutlineColorBackgroundHover;
-			border-color: $btnDarkOutlineColorBorderHover;
+			background-color: $btnDarkColorHover;
+			border-color: $btnDarkColorHover;
+			color: $btnColoredTextDefault;
 		}
 	/* BTN DARK */
 	/* BTN YELLOW */
 	.btn-yellow {
-		background-color: $btnYellowColorBackground;
-		border-color: $btnYellowColorBackground;
-		color: $btnYellowColorText;
+		background-color: $btnYellowColor;
+		border-color: $btnYellowColor;
+		color: $btnColoredTextDefault;
 	}
 		.btn-yellow:hover {
-			background-color: $btnYellowColorBackgroundHover;
-			border-color: $btnYellowColorBackgroundHover;
+			background-color: $btnYellowColorHover;
+			border-color: $btnYellowColorHover;
 		}
 	.btn-yellow-outline {
-		background-color: $btnOutlineColorBackground;
-		border-color: $btnYellowOutlineColorBorder;
-		color: $btnOutlineColorText;
+		background: none;
+		border-color: $btnYellowColor;
+		color: $btnYellowColor;
 	}
 		.btn-yellow-outline:hover {
-			background-color: $btnOutlineColorBackgroundHover;
-			border-color: $btnYellowOutlineColorBorderHover;
+			background-color: $btnYellowColorHover;
+			border-color: $btnYellowColorHover;
+			color: $btnColoredTextDefault;
 		}
 	/* BTN YELLOW */
 /* BTN OSPAF */

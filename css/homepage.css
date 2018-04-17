@@ -51,6 +51,8 @@ html body {
       display: flex; }
       html body main > #main-container > #nav-container {
         flex-basis: 20%; }
+        html body main > #main-container > #nav-container > .row {
+          position: fixed; }
       html body main > #main-container > #doc-container {
         flex-basis: 80%; }
         html body main > #main-container > #doc-container > .row > div > div {
@@ -69,13 +71,14 @@ html body {
                 margin: 10px 0;
                 padding: 5px;
                 background-color: #EFEFEF; }
-                html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation > pre > .tag-html {
-                  color: #0f7595; }
-                html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation > pre > .attribut-html {
-                  color: #273c75; }
-                html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation > pre > .value-html {
-                  color: #CF2829; }
+              html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation .tag-html {
+                color: #0f7595; }
+              html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation .attribut-html {
+                color: #273c75; }
+              html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation .value-html {
+                color: #CF2829; }
           html body main > #main-container > #doc-container > .row > div > div > .footer-col {
             background-color: #FFFFFF;
             padding: 5px 15px;
-            border-top: 1px solid lightgrey; }
+            border-top: 1px solid lightgrey;
+            font-size: 0.8em; }
