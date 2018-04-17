@@ -151,8 +151,8 @@
 		}
 	.btn-white-outline {
 		background: none;
-		border-color: #FFF;
-		color: #FFF;
+		border-color: $btnWhiteColorBackground;
+		color: $btnWhiteColorBackground;
 	}
 		.btn-white-outline:hover {
 			background-color: $btnOutlineColorBackgroundHover;

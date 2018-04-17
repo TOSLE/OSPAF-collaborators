@@ -53,3 +53,29 @@ html body {
         flex-basis: 20%; }
       html body main > #main-container > #doc-container {
         flex-basis: 80%; }
+        html body main > #main-container > #doc-container > .row > div > div {
+          border-radius: 5px;
+          overflow: hidden; }
+          html body main > #main-container > #doc-container > .row > div > div > .header-col {
+            background-color: #273c75;
+            padding: 5px 15px;
+            color: #FFF; }
+          html body main > #main-container > #doc-container > .row > div > div > .main-col {
+            background-color: #FFFFFF;
+            padding: 15px 15px; }
+            html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation {
+              margin: 15px 0; }
+              html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation > pre {
+                margin: 10px 0;
+                padding: 5px;
+                background-color: #EFEFEF; }
+                html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation > pre > .tag-html {
+                  color: #0f7595; }
+                html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation > pre > .attribut-html {
+                  color: #273c75; }
+                html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation > pre > .value-html {
+                  color: #CF2829; }
+          html body main > #main-container > #doc-container > .row > div > div > .footer-col {
+            background-color: #FFFFFF;
+            padding: 5px 15px;
+            border-top: 1px solid lightgrey; }

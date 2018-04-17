@@ -71,6 +71,45 @@ html {
         }
         > #doc-container{
           flex-basis: 80%;
+          > .row {
+            > div {
+              > div {
+                border-radius: 5px;
+                overflow: hidden;
+                > .header-col {
+                  background-color: #273c75;
+                  padding: 5px 15px;
+                  color: #FFF;
+                }
+                > .main-col {
+                  background-color: #FFFFFF;
+                  padding: 15px 15px;
+                  > .content-documentation {
+                    margin: 15px 0;
+                    > pre {
+                      margin: 10px 0;
+                      padding: 5px;
+                      background-color: #EFEFEF;
+                      > .tag-html {
+                        color: #0f7595;
+                      }
+                      > .attribut-html {
+                        color: #273c75;
+                      }
+                      > .value-html {
+                        color: #CF2829;
+                      }
+                    }
+                  }
+                }
+                > .footer-col {
+                  background-color: #FFFFFF;
+                  padding: 5px 15px;
+                  border-top: 1px solid lightgrey;
+                }
+              }
+            }
+          }
         }
       }
     }

@@ -270,13 +270,13 @@ body {
 
 .btn-white-outline {
   background: none;
-  border-color: #FFF;
-  color: #FFF; }
+  border-color: #F8F9FA;
+  color: #F8F9FA; }
 
 .btn-white-outline:hover {
   background-color: #F1F1F1;
-  border-color: #2F80ED;
-  color: #2F80ED; }
+  border-color: #f0f2f4;
+  color: #343A40; }
 
 /* BTN WHITE */
 /* BTN DARK */
@@ -389,6 +389,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* Support for IE. */
   font-feature-settings: 'liga'; }
+
+.autor-citation {
+  font-size: 0.8em;
+  font-style: normal;
+  font-weight: 500; }
 
 /* CLASS */
 /* GRID */
