@@ -208,4 +208,25 @@
 			color: $btnColoredTextDefault;
 		}
 	/* BTN YELLOW */
+	/* BTN TOSLE */
+	.btn-tosle {
+		background-color: $btnTosleColor;
+		border-color: $btnTosleColor;
+		color: $btnColoredTextDefault;
+	}
+		.btn-tosle:hover {
+			background-color: $btnTosleColorHover;
+			border-color: $btnTosleColorHover;
+		}
+	.btn-tosle-outline {
+		background: none;
+		border-color: $btnTosleColor;
+		color: $btnTosleColor;
+	}
+		.btn-tosle-outline:hover {
+			background-color: $btnTosleColorHover;
+			border-color: $btnTosleColorHover;
+			color: $btnColoredTextDefault;
+		}
+	/* BTN TOSLE */
 /* BTN OSPAF */

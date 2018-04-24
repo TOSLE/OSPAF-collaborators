@@ -19,6 +19,8 @@
 /* VARIABLES BTN-DARK */
 /* VARIABLES BTN-YELLOW */
 /* VARIABLES BTN-YELLOW */
+/* VARIABLES BTN-TOSLE */
+/* VARIABLES BTN-TOSLE */
 /* VARIABLES */
 /* GENERAL */
 /* GLOBAL CFG */
@@ -290,6 +292,27 @@ body {
   color: #F5F6FA; }
 
 /* BTN YELLOW */
+/* BTN TOSLE */
+.btn-tosle {
+  background-color: #1A5CCB;
+  border-color: #1A5CCB;
+  color: #F5F6FA; }
+
+.btn-tosle:hover {
+  background-color: #15479e;
+  border-color: #15479e; }
+
+.btn-tosle-outline {
+  background: none;
+  border-color: #1A5CCB;
+  color: #1A5CCB; }
+
+.btn-tosle-outline:hover {
+  background-color: #15479e;
+  border-color: #15479e;
+  color: #F5F6FA; }
+
+/* BTN TOSLE */
 /* BTN OSPAF */
 /* MODAL CLASS */
 .fade-background {
