@@ -1,16 +1,18 @@
-/* VARIABLES */
+/* VARIABLES & FONTS */
+	@import "fonts/roboto";
 	@import "variables/variables_btn";
 	@import "variables/variables_modal";
+	@import "variables/variable_forms";
 /* VARIABLES */
 /* GENERAL */
 	@import "global/global";
-	@import "fonts/roboto";
 /* GENERAL */
 /* CLASS */
 	@import "class/class_btn";
 	@import "class/class_modal";
 	@import "class/class_icons";
 	@import "class/class_text";
+	@import "class/class_forms";
 /* CLASS */
 /* GRID */
 	@import "grid/grid_min";
