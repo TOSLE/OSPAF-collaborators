@@ -1,12 +1,12 @@
 .form-group-base {
-  > label, input, textarea {
+  > label, input {
     display: block;
   }
   label {
     margin-bottom: 0.520rem;
     margin-top: 0.520rem;
   }
-  input {
+  input[type=text], input[type=number], input[type=password], input[type=email] {
     width: 100%;
     padding: 0.500rem 0.750rem;
     border-radius: 0.250rem;

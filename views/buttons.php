@@ -19,7 +19,7 @@
 
                 <div class="content-documentation">
                     <p>Pour utiliser l'un de nos boutons, il suffira simplement de rajouter dans votre élément HTML la double class comme suit</p>
-                    <pre>
+<pre>
     <span class="tag-html"><</span><span class="tag-html">button</span> <span class="attribut-html">class=</span><span class="value-html">"btn btn-default"</span><span class="tag-html">></span>Default<span class="tag-html"><</span><span class="tag-html">/button></span>
     <span class="tag-html"><</span><span class="tag-html">button</span> <span class="attribut-html">class=</span><span class="value-html">"btn btn-blue"</span><span class="tag-html">></span>Blue<span class="tag-html"><</span><span class="tag-html">/button></span>
     <span class="tag-html"><</span><span class="tag-html">button</span> <span class="attribut-html">class=</span><span class="value-html">"btn btn-yellow"</span><span class="tag-html">></span>Yellow<span class="tag-html"><</span><span class="tag-html">/button></span>
