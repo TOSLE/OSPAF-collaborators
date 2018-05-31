@@ -13,7 +13,8 @@
     border: 1px solid $borderColor_inputDefault;
     outline: none;
     color: $textColor_inputDefault;
-    &:focus{
+    transition: .4s;
+    &:focus, &:hover{
       border: 1px solid #037FF1;
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     }
@@ -28,6 +29,11 @@
     border: 1px solid $borderColor_inputDefault;
     outline: none;
     font-family: "Roboto";
+    transition: .4s;
+    &:focus, &:hover{
+      border: 1px solid #037FF1;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    }
     &.textarea-row-1 {
       width: calc(100% / 12);
     }
