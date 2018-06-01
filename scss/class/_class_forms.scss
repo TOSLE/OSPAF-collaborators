@@ -34,22 +34,22 @@
       border: 1px solid #037FF1;
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     }
-    &.textarea-row-1 {
+    &.textarea-col-1 {
       width: calc(100% / 12);
     }
-    &.textarea-row-2 {
+    &.textarea-col-2 {
       width: calc(100% / 6);
     }
-    &.textarea-row-3 {
+    &.textarea-col-3 {
       width: calc(100% / 4);
     }
-    &.textarea-row-4 {
+    &.textarea-col-4 {
       width: calc(100% / 3);
     }
-    &.textarea-row-6 {
+    &.textarea-col-6 {
       width: calc(100% / 2);
     }
-    &.textarea-row-12 {
+    &.textarea-col-12 {
       width: 100%;
     }
   }

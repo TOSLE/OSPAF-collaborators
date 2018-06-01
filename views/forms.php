@@ -20,7 +20,7 @@
                         <div class="small-precision-input">We never keep your information</div>
 
                         <label for="textArea_exampleBase">Textarea resize with OSPAF</label>
-                        <textarea id="textArea_exampleBase" name="textArea_exampleBase" class="textarea-row-12" placeholder="For choose size of your textarea, enter class : textarea-row-(number)"></textarea>
+                        <textarea id="textArea_exampleBase" name="textArea_exampleBase" class="textarea-col-12" placeholder="For choose size of your textarea, enter class : textarea-row-(number)"></textarea>
                         <div class="small-precision-input">Add information about your textarea</div>
 
                         <input type="submit" value="Submit" class="btn btn-green" onclick="return false;">
@@ -43,7 +43,7 @@
         <span class="tag-html"><</span><span class="tag-html">div</span> <span class="attribut-html">class=</span><span class="value-html">"small-precision-input"</span><span class="tag-html">></span>We never keep your information<span class="tag-html"><</span><span class="tag-html">/div></span>
 
         <span class="tag-html"><</span><span class="tag-html">label</span> <span class="attribut-html">for=</span><span class="value-html">"textArea_exampleBase"</span><span class="tag-html">></span>Textarea resize with OSPAF<span class="tag-html"><</span><span class="tag-html">/label></span>
-        <span class="tag-html"><</span><span class="tag-html">textarea</span> <span class="attribut-html">id=</span><span class="value-html">"textArea_exampleBase"</span> <span class="attribut-html">name=</span><span class="value-html">"textArea_exampleBase"</span> <span class="attribut-html">class=</span><span class="value-html">"textarea-row-6"</span>
+        <span class="tag-html"><</span><span class="tag-html">textarea</span> <span class="attribut-html">id=</span><span class="value-html">"textArea_exampleBase"</span> <span class="attribut-html">name=</span><span class="value-html">"textArea_exampleBase"</span> <span class="attribut-html">class=</span><span class="value-html">"textarea-col-6"</span>
         <span class="attribut-html">placeholder=</span><span class="value-html">"For choose size of your textarea, enter class : textarea-row-(number)"</span><span class="tag-html">></span><span class="tag-html"><</span><span class="tag-html">/textarea></span>
         <span class="tag-html"><</span><span class="tag-html">div</span> <span class="attribut-html">class=</span><span class="value-html">"small-precision-input"</span><span class="tag-html">></span>Add information about your textarea<span class="tag-html"><</span><span class="tag-html">/div></span>
 
@@ -54,12 +54,12 @@
                     <h3>Resize text area</h3>
                     <p>To resise our textarea, please use this class name :</p>
                     <ul class="ul-liste-textarea">
-                        <li><span class="value-html">textarea-row-1</span></li>
-                        <li><span class="value-html">textarea-row-2</span></li>
-                        <li><span class="value-html">textarea-row-3</span></li>
-                        <li><span class="value-html">textarea-row-4</span></li>
-                        <li><span class="value-html">textarea-row-6</span></li>
-                        <li><span class="value-html">textarea-row-12</span></li>
+                        <li><span class="value-html">textarea-col-1</span></li>
+                        <li><span class="value-html">textarea-col-2</span></li>
+                        <li><span class="value-html">textarea-col-3</span></li>
+                        <li><span class="value-html">textarea-col-4</span></li>
+                        <li><span class="value-html">textarea-col-6</span></li>
+                        <li><span class="value-html">textarea-col-12</span></li>
                     </ul>
                 </div>
             </div>
