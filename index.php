@@ -48,6 +48,9 @@
                             <li>
                                 <a href="#forms-ospaf">Forms</a>
                             </li>
+                            <li>
+                                <a href="#grid-ospaf">Grid</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -56,6 +59,7 @@
                 <?php include"views/buttons.php";?>
                 <?php include"views/modals.php";?>
                 <?php include"views/forms.php";?>
+                <?php include"views/grid.php";?>
             </section>
         </section>
 

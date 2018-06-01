@@ -94,15 +94,6 @@ html {
                       padding: 5px;
                       background-color: #EFEFEF;
                     }
-                    .tag-html {
-                      color: #0f7595;
-                    }
-                    .attribut-html {
-                      color: #273c75;
-                    }
-                    .value-html {
-                      color: #CF2829;
-                    }
                     .ul-liste-textarea {
                       margin: 5px 30px;
                     }
@@ -115,7 +106,30 @@ html {
                   font-size: 0.8em;
                 }
               }
+              .container {
+                > .row {
+                  > div {
+                    > div {
+                      background-color: lightgrey;
+                      padding: 5px;
+                    }
+                  }
+                }
+              }
             }
+          }
+          .tag-html {
+            color: #0f7595;
+          }
+          .attribut-html {
+            color: #273c75;
+          }
+          .value-html {
+            color: #CF2829;
+          }
+          .comment-html {
+            color: #38ada9;
+            font-style: italic;
           }
         }
       }

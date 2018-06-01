@@ -71,12 +71,6 @@ html body {
                 margin: 10px 0;
                 padding: 5px;
                 background-color: #EFEFEF; }
-              html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation .tag-html {
-                color: #0f7595; }
-              html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation .attribut-html {
-                color: #273c75; }
-              html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation .value-html {
-                color: #CF2829; }
               html body main > #main-container > #doc-container > .row > div > div > .main-col > .content-documentation .ul-liste-textarea {
                 margin: 5px 30px; }
           html body main > #main-container > #doc-container > .row > div > div > .footer-col {
@@ -84,3 +78,15 @@ html body {
             padding: 5px 15px;
             border-top: 1px solid lightgrey;
             font-size: 0.8em; }
+        html body main > #main-container > #doc-container > .row > div .container > .row > div > div {
+          background-color: lightgrey;
+          padding: 5px; }
+        html body main > #main-container > #doc-container .tag-html {
+          color: #0f7595; }
+        html body main > #main-container > #doc-container .attribut-html {
+          color: #273c75; }
+        html body main > #main-container > #doc-container .value-html {
+          color: #CF2829; }
+        html body main > #main-container > #doc-container .comment-html {
+          color: #38ada9;
+          font-style: italic; }

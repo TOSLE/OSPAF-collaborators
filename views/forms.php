@@ -27,7 +27,7 @@
                     </div>
                 </form>
                 <div class="content-documentation">
-                    <p>To use our form style</p>
+                    <p>Pour utiliser notre formulaire</p>
 <pre>
 <span class="tag-html"><</span><span class="tag-html">form</span><span class="tag-html">></span>
     <span class="tag-html"><</span><span class="tag-html">div</span> <span class="attribut-html">class=</span><span class="value-html">"form-group-base"</span><span class="tag-html">></span>
@@ -51,8 +51,8 @@
     <span class="tag-html"><</span><span class="tag-html">/div></span>
 <span class="tag-html"><</span><span class="tag-html">/form></span>
 </pre>
-                    <h3>Resize text area</h3>
-                    <p>To resise our textarea, please use this class name :</p>
+                    <h3>Redimensionnement du textarea</h3>
+                    <p>Pour redimensionner votre textarea, utilisez les class suivantes :</p>
                     <ul class="ul-liste-textarea">
                         <li><span class="value-html">textarea-col-1</span></li>
                         <li><span class="value-html">textarea-col-2</span></li>
