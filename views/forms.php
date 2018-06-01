@@ -23,7 +23,8 @@
                         <textarea id="textArea_exampleBase" name="textArea_exampleBase" class="textarea-col-12" placeholder="For choose size of your textarea, enter class : textarea-row-(number)"></textarea>
                         <div class="small-precision-input">Add information about your textarea</div>
 
-                        <input type="submit" value="Submit" class="btn btn-green" onclick="return false;">
+                        <button type="submit" class="btn btn-green" onclick="return false;">Submit</button>
+                        <button type="reset" class="btn btn-default">Clear form</button>
                     </div>
                 </form>
                 <div class="content-documentation">
@@ -47,7 +48,8 @@
         <span class="attribut-html">placeholder=</span><span class="value-html">"For choose size of your textarea, enter class : textarea-row-(number)"</span><span class="tag-html">></span><span class="tag-html"><</span><span class="tag-html">/textarea></span>
         <span class="tag-html"><</span><span class="tag-html">div</span> <span class="attribut-html">class=</span><span class="value-html">"small-precision-input"</span><span class="tag-html">></span>Add information about your textarea<span class="tag-html"><</span><span class="tag-html">/div></span>
 
-        <span class="tag-html"><</span><span class="tag-html">input</span> <span class="attribut-html">type=</span><span class="value-html">"submit"</span> <span class="attribut-html">value=</span><span class="value-html">"Submit"</span> <span class="attribut-html">class=</span><span class="value-html">"btn btn-green"</span><span class="tag-html">></span>
+        <span class="tag-html"><</span><span class="tag-html">button</span> <span class="attribut-html">type=</span><span class="value-html">"submit"</span> <span class="attribut-html">class=</span><span class="value-html">"btn btn-green"</span><span class="tag-html">></span>Submit<span class="tag-html"><</span><span class="tag-html">/button></span>
+        <span class="tag-html"><</span><span class="tag-html">button</span> <span class="attribut-html">type=</span><span class="value-html">"reset"</span> <span class="attribut-html">class=</span><span class="value-html">"btn btn-green"</span><span class="tag-html">></span>Reset form<span class="tag-html"><</span><span class="tag-html">/button></span>
     <span class="tag-html"><</span><span class="tag-html">/div></span>
 <span class="tag-html"><</span><span class="tag-html">/form></span>
 </pre>

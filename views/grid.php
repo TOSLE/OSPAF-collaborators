@@ -111,7 +111,7 @@
         <span class="tag-html"><</span><span class="tag-html">div</span> <span class="attribut-html">class=</span><span class="value-html">"col-6"</span><span class="tag-html">></span>
             <span class="tag-html"><</span><span class="tag-html">div</span><span class="tag-html">></span> <span class="comment-html"><</span><span class="comment-html">!-- /!\ Div à ne pas supprimer --></span>
                 <span class="tag-html"><</span><span class="tag-html">div</span><span class="tag-html">></span>
-                    col-12 with an other div
+                    col-6 with an other div
                 <span class="tag-html"><</span><span class="tag-html">/div></span>
             <span class="tag-html"><</span><span class="tag-html">/div></span>
         <span class="tag-html"><</span><span class="tag-html">/div></span>
