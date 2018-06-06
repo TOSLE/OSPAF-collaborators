@@ -23,6 +23,28 @@
                         <textarea id="textArea_exampleBase" name="textArea_exampleBase" class="textarea-col-12" placeholder="For choose size of your textarea, enter class : textarea-row-(number)"></textarea>
                         <div class="small-precision-input">Add information about your textarea</div>
 
+                        <label for="exampleText_fileInput">Add basic input file in your form</label>
+                        <input id="exampleText_fileInput" name="exampleText_fileInput" type="file">
+                        <div class="small-precision-input">Add information about your input file</div>
+
+                        <label for="exampleText_selectInput">Add basic select input</label>
+                        <select id="exampleText_selectInput" name="exampleText_selectInput">
+                            <option selected>Select option...</option>
+                            <option>Value 1</option>
+                            <optgroup label="Your label">
+                                <option>Value 2</option>
+                            </optgroup>
+                        </select>
+
+                        <label for="exampleText_selectMultipleInput">Add multiple select input</label>
+                        <select multiple id="exampleText_selectMultipleInput" name="exampleText_selectMultipleInput">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+
                         <button type="submit" class="btn btn-green" onclick="return false;">Submit</button>
                         <button type="reset" class="btn btn-default">Clear form</button>
                     </div>
@@ -47,6 +69,26 @@
         <span class="tag-html"><</span><span class="tag-html">textarea</span> <span class="attribut-html">id=</span><span class="value-html">"textArea_exampleBase"</span> <span class="attribut-html">name=</span><span class="value-html">"textArea_exampleBase"</span> <span class="attribut-html">class=</span><span class="value-html">"textarea-col-6"</span>
         <span class="attribut-html">placeholder=</span><span class="value-html">"For choose size of your textarea, enter class : textarea-row-(number)"</span><span class="tag-html">></span><span class="tag-html"><</span><span class="tag-html">/textarea></span>
         <span class="tag-html"><</span><span class="tag-html">div</span> <span class="attribut-html">class=</span><span class="value-html">"small-precision-input"</span><span class="tag-html">></span>Add information about your textarea<span class="tag-html"><</span><span class="tag-html">/div></span>
+
+        <span class="tag-html"><</span><span class="tag-html">label</span> <span class="attribut-html">for=</span><span class="value-html">"exampleText_fileInput"</span><span class="tag-html">></span>Add basic input file in your form<span class="tag-html"><</span><span class="tag-html">/label></span>
+        <span class="tag-html"><</span><span class="tag-html">input</span> <span class="attribut-html">id=</span><span class="value-html">"exampleText_fileInput"</span> <span class="attribut-html">name=</span><span class="value-html">"exampleText_fileInput"</span> <span class="attribut-html">type=</span><span class="value-html">"file"</span><span class="tag-html">></span>
+        <span class="tag-html"><</span><span class="tag-html">div</span> <span class="attribut-html">class=</span><span class="value-html">"small-precision-input"</span><span class="tag-html">></span>Add information about your input file<span class="tag-html"><</span><span class="tag-html">/div></span>
+
+        <span class="tag-html"><</span><span class="tag-html">label</span> <span class="attribut-html">for=</span><span class="value-html">"exampleText_selectInput"</span><span class="tag-html">></span>Add basic input file in your form<span class="tag-html"><</span><span class="tag-html">/label></span>
+        <span class="tag-html"><</span><span class="tag-html">select</span> <span class="attribut-html">id=</span><span class="value-html">"exampleText_selectInput"</span> <span class="attribut-html">name=</span><span class="value-html">"exampleText_selectInput"</span><span class="tag-html">></span>
+            <span class="tag-html"><</span><span class="tag-html">option</span> <span class="attribut-html">selected</span><span class="tag-html">></span>Select option...<span class="tag-html"><</span><span class="tag-html">/option></span>
+            <span class="tag-html"><</span><span class="tag-html">option</span><span class="tag-html">></span>Value 1<span class="tag-html"><</span><span class="tag-html">/option></span>
+            <span class="tag-html"><</span><span class="tag-html">optgroup</span> <span class="attribut-html">label=</span><span class="value-html">"Your label"</span><span class="tag-html">></span>
+                <span class="tag-html"><</span><span class="tag-html">option</span><span class="tag-html">></span>Value 2<span class="tag-html"><</span><span class="tag-html">/option></span>
+            <span class="tag-html"><</span><span class="tag-html">/optgroup></span>
+        <span class="tag-html"><</span><span class="tag-html">/select></span>
+
+        <span class="tag-html"><</span><span class="tag-html">label</span> <span class="attribut-html">for=</span><span class="value-html">"exampleText_selectMultipleInput"</span><span class="tag-html">></span>Add multiple select input<span class="tag-html"><</span><span class="tag-html">/label></span>
+        <span class="tag-html"><</span><span class="tag-html">select</span> <span class="attribut-html">multiple</span> <span class="attribut-html">id=</span><span class="value-html">"exampleText_selectMultipleInput"</span> <span class="attribut-html">name=</span><span class="value-html">"exampleText_selectMultipleInput"</span><span class="tag-html">></span>
+            <span class="tag-html"><</span><span class="tag-html">option</span><span class="tag-html">></span>1<span class="tag-html"><</span><span class="tag-html">/option></span>
+            <span class="tag-html"><</span><span class="tag-html">option</span><span class="tag-html">></span>2<span class="tag-html"><</span><span class="tag-html">/option></span>
+            <span class="tag-html"><</span><span class="tag-html">option</span><span class="tag-html">></span>...<span class="tag-html"><</span><span class="tag-html">/option></span>
+        <span class="tag-html"><</span><span class="tag-html">/select></span>
 
         <span class="tag-html"><</span><span class="tag-html">button</span> <span class="attribut-html">type=</span><span class="value-html">"submit"</span> <span class="attribut-html">class=</span><span class="value-html">"btn btn-green"</span><span class="tag-html">></span>Submit<span class="tag-html"><</span><span class="tag-html">/button></span>
         <span class="tag-html"><</span><span class="tag-html">button</span> <span class="attribut-html">type=</span><span class="value-html">"reset"</span> <span class="attribut-html">class=</span><span class="value-html">"btn btn-green"</span><span class="tag-html">></span>Reset form<span class="tag-html"><</span><span class="tag-html">/button></span>

@@ -65,5 +65,6 @@
 
     </main>
     <script src="js/modals.js"></script>
+    <script src="js/inputfile.js"></script>
     </body>
 </html>

@@ -8,8 +8,8 @@
   }
   input[type=text], input[type=number], input[type=password], input[type=email] {
     width: 100%;
-    padding: 0.500rem 0.750rem;
-    border-radius: 0.250rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
     border: 1px solid $borderColor_inputDefault;
     outline: none;
     color: $textColor_inputDefault;
@@ -17,6 +17,20 @@
     &:focus, &:hover{
       border: 1px solid #037FF1;
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    }
+  }
+  select {
+    display: block;
+    margin: 15px 0;
+    width: 100%;
+    padding: 5px 5px;
+    font-family: "Roboto", Arial;
+    transition: .4s;
+    outline: none;
+    border: 1px solid $borderColor_inputDefault;
+    border-radius: 0.25rem;
+    > option {
+      padding: 5px 5px;
     }
   }
   .small-precision-input {
@@ -29,7 +43,7 @@
     border: 1px solid $borderColor_inputDefault;
     outline: none;
     font-family: "Roboto";
-    transition: .4s;
+    transition: border .4s;
     &:focus, &:hover{
       border: 1px solid #037FF1;
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
