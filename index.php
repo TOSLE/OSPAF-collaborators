@@ -5,6 +5,7 @@
         <title>OSPAF - Framework CSS - Home page</title>
         <link rel="stylesheet" href="css/ospaf.css">
         <link rel="stylesheet" href="css/homepage.css">
+        <link rel="stylesheet" href="icons/material-design-icons/">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
@@ -51,6 +52,12 @@
                             <li>
                                 <a href="#grid-ospaf">Grid</a>
                             </li>
+                            <li>
+                                <a href="#pagination-ospaf">Pagination</a>
+                            </li>
+                            <li>
+                                <a href="#icons-ospaf">Icons</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -60,6 +67,8 @@
                 <?php include"views/modals.php";?>
                 <?php include"views/forms.php";?>
                 <?php include"views/grid.php";?>
+                <?php include"views/pagination.php";?>
+                <?php include"views/icons.php";?>
             </section>
         </section>
 
