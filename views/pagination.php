@@ -8,10 +8,59 @@
                 <h3>Pagination simple</h3>
                 <ul class="pagination">
                     <li class="item">
-                        <a class="link-page">
-                            <i class="material-icons">
-                                first_page
-                            </i>
+                        <a class="link-page material-icons" href="#">
+                            first_page
+                        </a>
+                    </li>
+                    <li class="item active">
+                        <a class="link-page" href="#">1</a>
+                    </li>
+                    <li class="item">
+                        <a class="link-page" href="#">2</a>
+                    </li>
+                    <li class="item">
+                        <a class="link-page material-icons" href="#">
+                            last_page
+                        </a>
+                    </li>
+                </ul>
+                <h3>Un peu de couleur</h3>
+                <p>
+                    Il suffit simplement d'appliquer le nom des couleurs de nos boutons
+                </p>
+                <ul class="pagination tosle">
+                    <li class="item">
+                        <a class="link-page material-icons" href="#">
+                            first_page
+                        </a>
+                    </li>
+                    <li class="item active">
+                        <a class="link-page" href="#">1</a>
+                    </li>
+                    <li class="item">
+                        <a class="link-page" href="#">2</a>
+                    </li>
+                    <li class="item">
+                        <a class="link-page material-icons" href="#">
+                            last_page
+                        </a>
+                    </li>
+                </ul>
+                <ul class="pagination red">
+                    <li class="item">
+                        <a class="link-page material-icons" href="#">
+                            first_page
+                        </a>
+                    </li>
+                    <li class="item active">
+                        <a class="link-page" href="#">1</a>
+                    </li>
+                    <li class="item">
+                        <a class="link-page" href="#">2</a>
+                    </li>
+                    <li class="item">
+                        <a class="link-page material-icons" href="#">
+                            last_page
                         </a>
                     </li>
                 </ul>

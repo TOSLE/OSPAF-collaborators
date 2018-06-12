@@ -5,54 +5,54 @@ $btnTransitionSpeed: .4s;
 	$btnTextColorDefault: #000000;
 /* VARIABLES BTN-OUTLINE GLOBAL */
 /* VARIABLES BTN-DEFAULT */
-	$btnDefaultColor: #949599;
-	$btnDefaultColorHover: #7D7E82;
+	$btnDefaultColor: $globalColor_default;
+	$btnDefaultColorHover: $globalColor_defaultHover;
 	$btnDefaultText: #FFFFFF;
 	$btnDefaultText2: #000000;
 /* VARIABLES BTN-DEFAULT */
 /* VARIABLES BTN-RED */
-	$btnRedColor: #F43C3E;
-	$btnRedColorHover: #CF2829;
-	$btnRedText: #F43C3E;
+	$btnRedColor: $globalColor_red;
+	$btnRedColorHover: $globalColor_redHover;
+	$btnRedText: $globalColor_red;
 /* VARIABLES BTN-RED */
 /* VARIABLES BTN-GREEN */
-	$btnGreenColor: #28A745;
-	$btnGreenColorHover: #23903C;
-	$btnGreenText: #28A745;
+	$btnGreenColor: $globalColor_green;
+	$btnGreenColorHover: $globalColor_greenHover;
+	$btnGreenText: $globalColor_green;
 /* VARIABLES BTN-GREEN */
 /* VARIABLES BTN-BLUE */
-	$btnBlueColor: #00A8FF;
-	$btnBlueColorHover: #037FF1;
-	$btnBlueText: #00A8FF;
+	$btnBlueColor: $globalColor_blue;
+	$btnBlueColorHover: $globalColor_blueHover;
+	$btnBlueText: $globalColor_blue;
 /* VARIABLES BTN-BLUE */
 /* VARIABLES BTN-ORANGE */
-	$btnOrangeColor: #FA690E;
-	$btnOrangeColorHover: #DC4712;
-	$btnOrangeText: #FA690E;
+	$btnOrangeColor: $globalColor_orange;
+	$btnOrangeColorHover: $globalColor_orangeHover;
+	$btnOrangeText: $globalColor_orange;
 /* VARIABLES BTN-ORANGE */
 /* VARIABLES BTN-PURPLE */
-	$btnPurpleColor: #9B59B6;
-	$btnPurpleColorHover: #8E44AD;
-	$btnPurpleText: #9B59B6;
+	$btnPurpleColor: $globalColor_purple;
+	$btnPurpleColorHover: $globalColor_purpleHover;
+	$btnPurpleText: $globalColor_purple;
 /* VARIABLES BTN-PURPLE */
 /* VARIABLES BTN-WHITE */
-	$btnWhiteColor: #F8F9FA;
-	$btnWhiteColorHover: #F0F2F4;
-	$btnWhiteText: #F8F9FA;
+	$btnWhiteColor: $globalColor_white;
+	$btnWhiteColorHover: $globalColor_whiteHover;
+	$btnWhiteText: $globalColor_white;
 /* VARIABLES BTN-WHITE */
 /* VARIABLES BTN-DARK */
-	$btnDarkColor: #343A40;
-	$btnDarkColorHover: #22262A;
-	$btnDarkText: #343A40;
+	$btnDarkColor: $globalColor_dark;
+	$btnDarkColorHover: $globalColor_darkHover;
+	$btnDarkText: $globalColor_dark;
 /* VARIABLES BTN-DARK */
 /* VARIABLES BTN-YELLOW */
-	$btnYellowColor: #FFC107;
-	$btnYellowColorHover: #E6AC00;
-	$btnYellowText: #FFC107;
+	$btnYellowColor: $globalColor_yellow;
+	$btnYellowColorHover: $globalColor_yellowHover;
+	$btnYellowText: $globalColor_yellow;
 /* VARIABLES BTN-YELLOW */
 /* VARIABLES BTN-TOSLE */
-	$btnTosleColor: #1A5CCB;
-	$btnTosleColorHover: #15479e;
-	$btnTosleText: #1A5CCB;
+	$btnTosleColor: $globalColor_tosle;
+	$btnTosleColorHover: $globalColor_tosleHover;
+	$btnTosleText: $globalColor_tosle;
 /* VARIABLES BTN-TOSLE */
 

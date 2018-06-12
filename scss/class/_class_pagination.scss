@@ -1,0 +1,63 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  border-radius: .25rem;
+  margin: 15px 0;
+  > .item {
+    border: 1px solid $borderPagination_liBlock;
+    > .link-page {
+      display: block;
+      height: 32px;
+      width: 32px;
+      line-height: 32px;
+      text-decoration: none;
+      text-align: center;
+      color: $globalColor_dark;
+      &:hover {
+        background-color: rgba(0,0,0,0.1);
+      }
+    }
+    &.active {
+      > .link-page {
+        color: $globalColor_white;
+        background-color: $globalColor_darkHover;
+      }
+    }
+    &:last-child{
+      border-right: 1px solid $borderPagination_liBlock;
+    }
+  }
+  &.tosle {
+    > .item {
+      .link-page {
+        color: $globalColor_tosle;
+        &:hover {
+          background-color: rgba(0,0,0,0.05);
+        }
+      }
+      &.active {
+        border: 1px solid $globalColor_tosleHover;
+        > .link-page {
+          color: $globalColor_white;
+          background-color: $globalColor_tosleHover;
+        }
+      }
+    }
+  }
+  &.red {
+    > .item {
+      .link-page {
+        color: $globalColor_red;
+        &:hover {
+          background-color: rgba(0,0,0,0.05);
+        }
+      }
+      &.active {
+        > .link-page {
+          color: $globalColor_white;
+          background-color: $globalColor_redHover;
+        }
+      }
+    }
+  }
+}
