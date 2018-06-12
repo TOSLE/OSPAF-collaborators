@@ -3,6 +3,7 @@
   display: flex;
   border-radius: .25rem;
   margin: 15px 0;
+  justify-content: left;
   > .item {
     border: 1px solid $borderPagination_liBlock;
     > .link-page {
@@ -27,6 +28,15 @@
       border-right: 1px solid $borderPagination_liBlock;
     }
   }
+  &.justify-center {
+    justify-content: center;
+  }
+  &.justify-right {
+    justify-content: right;
+  }
+  /*
+    COLORS CLASS OF UL LIST
+   */
   &.tosle {
     > .item {
       .link-page {
@@ -60,4 +70,87 @@
       }
     }
   }
+  &.green {
+    > .item {
+      .link-page {
+        color: $globalColor_green;
+        &:hover {
+          background-color: rgba(0,0,0,0.05);
+        }
+      }
+      &.active {
+        > .link-page {
+          color: $globalColor_white;
+          background-color: $globalColor_greenHover;
+        }
+      }
+    }
+  }
+  &.blue {
+    > .item {
+      .link-page {
+        color: $globalColor_blue;
+        &:hover {
+          background-color: rgba(0,0,0,0.05);
+        }
+      }
+      &.active {
+        > .link-page {
+          color: $globalColor_white;
+          background-color: $globalColor_blueHover;
+        }
+      }
+    }
+  }
+  &.orange {
+    > .item {
+      .link-page {
+        color: $globalColor_orange;
+        &:hover {
+          background-color: rgba(0,0,0,0.05);
+        }
+      }
+      &.active {
+        > .link-page {
+          color: $globalColor_white;
+          background-color: $globalColor_orangeHover;
+        }
+      }
+    }
+  }
+  &.purple {
+    > .item {
+      .link-page {
+        color: $globalColor_purple;
+        &:hover {
+          background-color: rgba(0,0,0,0.05);
+        }
+      }
+      &.active {
+        > .link-page {
+          color: $globalColor_white;
+          background-color: $globalColor_purpleHover;
+        }
+      }
+    }
+  }
+  &.yellow {
+    > .item {
+      .link-page {
+        color: $globalColor_yellow;
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.05);
+        }
+      }
+      &.active {
+        > .link-page {
+          color: $globalColor_white;
+          background-color: $globalColor_yellowHover;
+        }
+      }
+    }
+  }
+  /*
+    COLORS CLASS OF UL LIST
+   */
 }
