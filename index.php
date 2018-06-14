@@ -58,6 +58,9 @@
                             <li>
                                 <a href="#icons-ospaf">Icons</a>
                             </li>
+                            <li>
+                                <a href="#tag-ospaf">Icons</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -69,6 +72,7 @@
                 <?php include"views/grid.php";?>
                 <?php include"views/pagination.php";?>
                 <?php include"views/icons.php";?>
+                <?php include"views/tag.php";?>
             </section>
         </section>
 

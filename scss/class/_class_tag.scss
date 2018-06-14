@@ -1,0 +1,54 @@
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style: none;
+  > .item {
+    padding: 2.5px 5px;
+    background-color: $globalColor_default;
+    color: $globalColor_white;
+    margin: 1.5px;
+    font-size: 0.8em;
+    border: 0.5px solid transparent;
+    &:first-child {
+      margin-left: 0px;
+    }
+    &.tosle {
+      background-color: $globalColor_tosle;
+      color: $globalColor_white;
+    }
+    &.red {
+      background-color: $globalColor_red;
+      color: $globalColor_white;
+    }
+    &.green {
+      background-color: $globalColor_green;
+      color: $globalColor_white;
+    }
+    &.yellow {
+      background-color: $globalColor_yellow;
+      color: $globalColor_dark;
+    }
+    &.white {
+      background-color: $globalColor_white;
+      border: 0.5px solid $globalColor_default;
+      color: $globalColor_dark;
+    }
+    &.dark {
+      background-color: $globalColor_dark;
+      color: $globalColor_white;
+    }
+    &.blue {
+      background-color: $globalColor_blue;
+      color: $globalColor_white;
+    }
+    &.purple {
+      background-color: $globalColor_purple;
+      color: $globalColor_white;
+    }
+    &.orange {
+      background-color: $globalColor_orange;
+      color: $globalColor_white;
+    }
+  }
+}
