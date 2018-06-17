@@ -59,7 +59,7 @@
                                 <a href="#icons-ospaf">Icons</a>
                             </li>
                             <li>
-                                <a href="#tag-ospaf">Icons</a>
+                                <a href="#tag-ospaf">Tags</a>
                             </li>
                         </ul>
                     </div>
