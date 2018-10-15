@@ -26,3 +26,5 @@ To finish, run the script
 > npm run watch
 
 Now, it's time to work ! :)
+
+Test
